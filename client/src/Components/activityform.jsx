@@ -158,7 +158,7 @@ export default function(){
         })
 
 
-        await axios.post('http://localhost:3001/activity',(
+        await axios.post('/activity',(
             {
             nombre: input.name,
             dificultad: input.dificulty,
