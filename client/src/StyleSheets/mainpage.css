@@ -1,0 +1,160 @@
+body{
+    background-color: #FFE61B;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+.headerButtons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: space-between;
+    margin-right: 20px;
+    height: 350px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+   
+}
+
+.mainTitle{
+    width: 751px;
+    height: 302px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 219px;
+
+    color: #F7F7F7;
+}
+
+.addActivityMain{
+   
+    width: 357px;
+    height: 56px;
+
+    
+
+    background: #FFB72B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFEF7;
+}
+
+.addActivityMain:hover{
+    transform: translateY(-10px);
+}
+
+.searchBarMain{
+    margin-top: 50px;
+    width: 660px;
+    height: 40px;
+
+
+    background: #FFFEFE;
+    border: 1px solid #C6C2C2;
+    box-sizing: border-box;
+    box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.searchBarMain::placeholder{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+
+
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: end;
+    letter-spacing: 0.02em;
+    
+
+    color: #A6A4A4;
+}
+
+.filtersContainer{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.filters{
+
+    width: 250px;
+    height: 44px;
+    margin: 10px;
+   
+
+    background: #FFB72B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 0px;
+    
+    font-family: 'Domine';
+    font-size: 15px;
+    color: #272626;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    
+
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    width: 1200px;
+}
+
+.whiteMainPage{
+    
+    margin: 0 auto;
+    /* margin-top: 100px; */
+    width: auto;
+    height: 950px;
+    
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+
+    background: #F7F7F7;
+    border-radius: 399.5px 0px 0px 0px;
+    
+}
+
+

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500&family=Roboto&display=swap');
+
+body{
+    height: 1300px;
+}
+
+
+
+h1{
+    position: absolute;
+    width: 751px;
+    height: 202px;
+    left: 10%;
+    top: 30%;
+
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 150px;
+
+    
+    text-shadow: 2px 1px 4px 0px #00000040 inset;
+
+
+    color: #F7F7F7;
+}
+
+
+.landingContainter{
+    animation: change 10s infinite;
+    background-image: url(../../public/AllBack/pexels-james-wheeler-417074.jpg) ;
+    background-size: auto 2500px;
+    width: auto;
+    height: 1400px;
+}
+@keyframes change{
+    0%{background-image: url(../../public/AllBack/pexels-james-wheeler-417074.jpg);}
+    25%{background-image: url(../../public/AllBack/pexels-nubia-navarro-\(nubikini\)-386000.jpg);}
+    50%{background-image: url(../../public/AllBack/pexels-te-lensfix-1371360.jpg);}
+    75%{background-image: url(../../public/AllBack/pexels-tirachard-kumtanom-450062.jpg);}
+    99%{background-image: url(../../public/AllBack/pexels-haley-black-2087391.jpg);}
+    100%{background-image: url(../../public/AllBack/pexels-james-wheeler-417074.jpg);}
+}
+
+
+.buttonEnter{
+    position: absolute;
+    width: 196px;
+    height: 59px;
+    left: 70%;
+    top: 49%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+
+
+
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 35px;
+    text-align: center;
+
+    color: rgba(16, 16, 16, 0.95);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.buttonEnter:hover{
+    position: absolute;
+    width: 196px;
+    height: 59px;
+    left: 70%;
+    top: 49%;
+
+
+    background: #FFFFFF;
+    border: 7px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: rgba(16, 16, 16, 0.95);
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }

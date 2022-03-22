@@ -1,0 +1,189 @@
+.formContainer{
+    align-self: center;
+    margin: 5% auto;
+
+
+
+    width: 700px;
+    height: 1000px;
+
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: aqua;
+
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+
+
+    background: #F7F7F7;
+    box-shadow: 0px 4px 32px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 99px;
+}
+
+.formTitle{
+    width: 394px;
+    height: 29px;
+
+
+    align-self: center;
+    margin-top: 10px;
+    
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 25px;
+    /* or 69% */
+
+    text-align: center;
+    letter-spacing: 0.085em;
+
+    color: rgba(0, 0, 0, 0.46);
+}
+
+.textInput{
+
+
+    width: 551px;
+    height: 20px;
+    align-self: center;
+
+
+    border: 0px;
+    border-bottom: 2px solid;
+    transform: rotate(-0.21deg);
+    background-color: #F7F7F7;
+}
+
+.textInput::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    /* or 114% */
+
+    letter-spacing: 0.085em;
+
+    color: rgba(0, 0, 0, 0.33);
+}
+
+.completeInput{
+
+width: 565px;
+height: 44px;
+align-self: center;
+
+
+background: #FFFCFC;
+border: 1px solid #C6C2C2;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+
+
+.searchBarForm{
+    width: 413px;
+    height: 40px;
+
+    align-self: flex-end;
+    margin-right: 80px;
+
+    background: #FFFEFE;
+    border: 1px solid #C6C2C2;
+    box-sizing: border-box;
+    box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.countryFormContainer{
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    height: 400px;
+   
+}
+
+.countryOne{
+   
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    
+
+    letter-spacing: 0.085em;
+}
+
+.checkCountry{
+    margin: 5px;
+}
+
+
+.submitForm{
+
+    width: 318px;
+    height: 40px;
+    align-self: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.005em;
+
+    color: rgba(16, 15, 15, 0.66);
+
+
+    background: rgba(255, 230, 27, 0.51);
+    border: 1px solid #C6C2C2;
+    box-sizing: border-box;
+    box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.submitForm:enabled{
+    background:  #FFB72B;
+    color: black;
+}
+
+.submitForm:focus{
+    transform: translateY(-10px);
+}
+
+
+.formInputContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.errorsInput{
+    color: red;
+    align-self: flex-end;
+    margin-right: 80px;
+}
+
+.formCountrylevel{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Countrylabel{
+   margin-left: 80px;
+}
