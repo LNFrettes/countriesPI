@@ -42,12 +42,12 @@ const pruebo = async () => {
 }
 
 
-pruebo()
 
 
 
 
 router.get('/countries', async (req, res) => { 
+    pruebo()
     let nombre = req.query.name
 
     //path if it has query
@@ -74,6 +74,7 @@ router.get('/countries', async (req, res) => {
 })
 
 router.get('/countries/:id', async (req, res) => {
+    pruebo()
     const {id} = req.params
     try{
         const pais = await Country.findAll({
@@ -86,6 +87,7 @@ router.get('/countries/:id', async (req, res) => {
 })
 
 router.post('/activity', async (req, res) => {
+    pruebo()
     const {nombre, dificultad, duracion, temporada, paises} = req.body
     try{
         const act = await TouristActivity.create({
